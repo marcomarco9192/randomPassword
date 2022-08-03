@@ -31,10 +31,7 @@ const copyButton = document.getElementById('btn-copy');
 
         copyButton.addEventListener('click', (event) => {
            const content = document.getElementById('passwordOne-el').textContent;
-           navigator.clipboard.writeText(content).then(
-            function(){
-                alert("A MOZHE NAHYI PIDESH?"); // success 
-            })
+           navigator.clipboard.writeText(content);
 
 
 const copyButton = document.getElementById('btn-copy-two');
